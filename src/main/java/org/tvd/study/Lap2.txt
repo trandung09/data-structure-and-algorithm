@@ -1,0 +1,7 @@
+* Mảng là một cấu trúc dữ liệu trong Java cho phép lưu trữ một tập hợp các phần
+tử có cùng kiểu dữ liệu.
+    + Là kiểu dữ liệu tham chiếu
+    + Mảng trong java được cấp pháp trong bộ nhớ heap (!= bộ nhớ stack)
+* Có 2 cách định nghĩa mảng:
+    + Sử dụng từ khóa new: int[] arr = new int[5]
+    + Khởi tạo với giá trị trực tiếp: int[] arr = {1, 2, 3, 4, 5}
