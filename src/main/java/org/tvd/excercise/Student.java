@@ -4,12 +4,14 @@ package org.tvd.excercise;
 import java.util.Arrays;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Builder
 public class Student implements Comparable<Student> {
 
     private String fullName;
@@ -43,7 +45,7 @@ public class Student implements Comparable<Student> {
         Student student4 = new Student("Pham Thi G", 20, 9.0);
 
         Student[] students = {student1, student2, student3, student4};
-        System.out.println("Trước khi sắp xếp");
+        System.out.println("Trước khi sắp xếz   p");
         Arrays.stream(students).forEach(System.out::println);
 
         System.out.println("\nSau khi sắp xếp");
